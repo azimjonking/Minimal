@@ -12,6 +12,82 @@
   background: #ffffff;
 }
 
+/* main section start */
+.main {
+  background-image: url(./IMAGE\ \(3\).png);
+  width: 100%;
+  gap: 0px;
+  opacity: 0px;
+  padding: 60px 250px;
+ 
+}
+
+.main .box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main .box img {
+  margin-top: 20px;
+}
+
+.main .box h1 {
+  padding-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.main .box p {
+  text-align: center;
+  color: white;
+  padding-top: 28px;
+}
+
+/* main section end */
+
+/* about section start */
+
+.about .box2{
+  width: 100%;
+  height: 289px;
+  gap: 0px;
+  opacity: 0px;
+  background: #FEFEC9;
+
+}
+.about .box2 h1{ 
+  padding-top: 60px;
+  padding-left: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  font-size: 15px;
+  font-family: Montserrat;
+}
+.about .box2 button{
+  width: 159px;
+  height: 53px;
+  margin-left: 600px;
+  margin-top: 90px;
+  top: 115px;
+  left: 391px;
+  gap: 0px;
+  opacity: 0px;
+    
+}
+/* about section end */
+
 /* project section start */
 
 .projects {
