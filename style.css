@@ -12,6 +12,122 @@
   background: #ffffff;
 }
 
+/* project section start */
+
+.projects {
+  padding-left: 250px;
+}
+
+/* img- one   start */
+.img-one {
+  display: flex;
+  align-items: center;
+  gap: 19.98px;
+}
+
+.img-one img {
+  width: 300px;
+  height: 300px;
+}
+
+.img-one h1 {
+  padding-top: 15px;
+  text-align: center;
+}
+
+.img-one p {
+  padding-top: 4px;
+  text-align: center;
+}
+.img-one .box11 {
+  width: 300px;
+  height: 84px;
+}
+
+.img-one .box22 {
+  width: 300px;
+  height: 84px;
+}
+
+.img-one .box33 {
+  width: 300px;
+  height: 84px;
+}
+
+/* img-one end */
+
+/* img-two start */
+
+.img-two h1 {
+  padding-top: 15px;
+  text-align: center;
+}
+
+.img-two {
+  display: flex;
+  align-items: center;
+  gap: 19.98px;
+}
+
+.img-two p {
+  padding-top: 4px;
+  text-align: center;
+}
+
+.img-two .box44 {
+  width: 300px;
+  height: 84px;
+}
+
+.img-two .box55 {
+  width: 300px;
+  height: 84px;
+}
+
+.img-two .box66 {
+  width: 300px;
+  height: 84px;
+}
+
+/* img-two end */
+
+/* img-three start */
+
+.img-three h1 {
+  padding-top: 15px;
+  text-align: center;
+}
+
+.img-three {
+  display: flex;
+  align-items: center;
+  gap: 19.98px;
+}
+
+.img-three p {
+  padding-top: 4px;
+  text-align: center;
+}
+
+.img-three .box77 {
+  width: 300px;
+  height: 84px;
+}
+
+.img-three .box88 {
+  width: 300px;
+  height: 84px;
+}
+
+.img-three .box99 {
+  width: 300px;
+  height: 84px;
+}
+
+/* img-three end */
+
+/* project section end */
+
 /* contact sectio start */
 .contact {
   width: 100%;
