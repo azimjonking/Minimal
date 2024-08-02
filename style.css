@@ -1,13 +1,156 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
 .wrapper {
   width: 100%;
   min-height: 100dvh;
   background: #ffffff;
 }
+/* header start */
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 250px;
+  background: #ffffff;
+}
+header .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 13px;
+}
+header .logo span {
+  font-family: Oswald;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0.5px;
+  color: #333333;
+  text-transform: uppercase;
+}
+header ul {
+  display: flex;
+  gap: 34px;
+  text-transform: uppercase;
+}
+header ul li a {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  color: #404040;
+}
+/* header end */
+/* main start */
+.testimonial{
+  padding: 80px 250px;
+  width: 100%;
+  background: #F5F5F5;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+/* main end */
+/* footer start */
+footer {
+  width: 100%;
+  padding: 68px 250px;
+  /* background: #000; */
+  background: grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+
+footer form {
+  padding: 0 188px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer form input {
+  width: 100%;
+  padding: 17px 31px;
+  color: #ffffff;
+  font-family: "Vollkorn", sans-serif;
+  font-size: 17px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 22px;
+  border: none;
+  outline: none;
+  background: #404040;
+}
+
+footer form input::placeholder {
+  color: #ffffff;
+  text-transform: capitalize;
+}
+
+footer form .input1 {
+  color: #fff;
+  background: #64646494;
+}
+footer form textarea {
+  width: 100%;
+  height: 127px;
+  padding: 17px 31px;
+  background: #64646494;
+  font-family: "Vollkorn", sans-serif;
+  font-size: 17px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 22px;
+  border: none;
+  outline: none;
+  letter-spacing: 0.5px;
+}
+footer form textarea::placeholder {
+  color: #ffffff;
+}
+footer a button {
+  padding: 15px 60px;
+  border-top: solid 5px #7ec4bd;
+  border-bottom: solid 5px #7ec4bd;
+  border-right: solid 3px #7ec4bd;
+  border-left: solid 3px #7ec4bd;
+  background: #333333;
+  font-family: Vollkorn;
+  font-size: 17px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+  color: #7ec4bd;
+  letter-spacing: 0.5px;
+  margin-top: 1px;
+}
+footer a img {
+  margin-top: 21px;
+}
+footer p {
+  font-family: Vollkorn;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #404040;
+}
+/* footer end */
