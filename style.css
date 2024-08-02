@@ -11,3 +11,94 @@
   min-height: 100dvh;
   background: #ffffff;
 }
+.brands{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  padding: 250px;
+
+  margin-bottom: 20px;
+}
+.make{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  text-decoration: none;
+}
+.target{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+
+}
+ .frame{
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  justify-content: center;
+  font-family: "Vollkorn", serif;
+ }
+ .frame p{
+width: 290px;
+padding: 15px;
+font-family: "Vollkorn", serif;
+ }
+ .target h1{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+
+ }
+ 
+ .design h1{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+ }
+ .track h1{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+
+ }
+ .h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+ }
+ .picture{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+ }
+ .img1{
+  margin-top: 15px;
+  align-items: center;
+ }
+ .img2{
+  margin-top: 15px;
+ }
+ .img3{
+  margin-top: 15px;
+ }
+ .img4{
+  margin-top: 15px;
+ }
+ .picture h2 {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+ }
+ .picture p{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+ }
+ 
